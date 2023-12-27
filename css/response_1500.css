@@ -1,0 +1,62 @@
+
+@media print, (max-width: 1500px) {
+
+    :root {
+        --font_size_title: 40px;
+    }
+        header .menu .item a,
+    footer .menu .item a {
+        font-size: 21px;
+    }
+    .first-section_img {
+        width: 580px;
+        height: 412px;
+        margin-right: 0;
+    }
+    .first-section_info ul {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .first-section_info {
+        margin-top: 0;
+    }
+    .first-section_wrap {
+        align-items: center;
+    }
+    .callback_form .line .field {
+        max-width: 286px;
+        padding: 0 20px;
+    }
+    header .menu {
+        width: calc(100% - 726px);
+        margin-top: 0;
+    }
+    .training_title br {
+        display: none;
+    }
+    .training_item {
+        width: calc(100%/2 - 30px);
+    }
+    .training_item-title {
+        font-size: 24px;
+    }
+    .program_item {
+        padding: 25px 0px 0px 20px;
+    }
+    .step_item {
+        padding: 25px 0 0 20px;
+    }
+    .program_item:nth-child(1), 
+    .program_item:nth-child(2),
+    .program_item:nth-child(3) {
+        width: calc(100%/2 - 30px);
+    }
+    .program_item:nth-child(5) {
+        width: 100%;
+    } 
+
+
+
+
+}
+
