@@ -377,6 +377,24 @@ header {
 }
 
 
+
+.title {
+    text-align: center;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 98.049%; 
+    color: #fff;
+    margin-bottom: 35px; 
+}
+.text {
+    color: #C2C2C2;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 133.3%; 
+}
 .first_section {
     padding-bottom: 123px;
 }
@@ -392,6 +410,7 @@ header {
     margin-top: 100px;
 }
 .first_section-title {
+    text-align: start;
     font-size: 70px;
     font-style: normal;
     font-weight: 800;
@@ -419,6 +438,7 @@ header {
     position: relative;
 }
 .first_section-text {
+    text-align: start;
     font-size: 22px;
     font-style: normal;
     font-weight: 800;
@@ -504,23 +524,6 @@ header {
 
 .block {
     padding-bottom: 130px;
-}
-.title {
-    text-align: center;
-    font-size: 52px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 98.049%; 
-    color: #fff;
-    margin-bottom: 35px; 
-}
-.text {
-    color: #C2C2C2;
-    text-align: center;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 133.3%; 
 }
 .fact_text {
     max-width: 947px;
