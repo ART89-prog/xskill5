@@ -67,42 +67,78 @@ $(() => {
 		spaceBetween: 50,
 		loop: true,
 		autoplay: {
-		  delay: 0,
+			delay: 0,
 		},
 		breakpoints: {
-		  576: {
-			speed: 17000,
-			slidesPerView: 2,
-			spaceBetween: 20,
-			autoplay: {
-			  delay: 0,
+			576: {
+				speed: 17000,
+				slidesPerView: 2,
+				spaceBetween: 20,
+				autoplay: {
+					delay: 0,
+				},
 			},
-		  },
-		  
-		  768: {
-			speed: 17000,
-			slidesPerView: 3,
-			spaceBetween: 30,
-			autoplay: {
-			  delay: 0,
+
+			768: {
+				speed: 17000,
+				slidesPerView: 3,
+				spaceBetween: 30,
+				autoplay: {
+					delay: 0,
+				},
 			},
-		  },
-		  
-		  992: {
-			speed: 17000,
-			slidesPerView: 4,
-			spaceBetween: 40,
-			autoplay: {
-			  delay: 0,
-			},
-		  }
-	   }
+
+			992: {
+				speed: 17000,
+				slidesPerView: 4,
+				spaceBetween: 40,
+				autoplay: {
+					delay: 0,
+				},
+			}
+		}
 	});
-	
-	mySwiper.on('resize', function() {
-	  mySwiper.autoplay.stop();
-	  mySwiper.autoplay.start();
+
+
+	var mySwiper2 = new Swiper('.benefits .swiper', {
+		speed: 17000,
+		slidesPerView: 5,
+		spaceBetween: 50,
+		loop: true,
+		autoplay: {
+			delay: 0,
+		},
+		breakpoints: {
+			576: {
+				speed: 17000,
+				slidesPerView: 2,
+				spaceBetween: 20,
+				autoplay: {
+					delay: 0,
+				},
+			},
+
+			768: {
+				speed: 17000,
+				slidesPerView: 3,
+				spaceBetween: 30,
+				autoplay: {
+					delay: 0,
+				},
+			},
+
+			992: {
+				speed: 17000,
+				slidesPerView: 4,
+				spaceBetween: 40,
+				autoplay: {
+					delay: 0,
+				},
+			}
+		}
 	});
+
+
 
 
 
