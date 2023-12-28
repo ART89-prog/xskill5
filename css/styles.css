@@ -204,9 +204,9 @@ input[type=number] {
 :root {
     --bg: linear-gradient(322deg, #171717 0%, #272727 100%);
     --scroll_width: 17px;
-    --text_color: #224FD6;
-    --font_size: 22px;
-    --font_size_title: 48px;
+    --text_color: #fff;
+    --font_size: 20px;
+    --font_size_title: 52px;
     --font_family: 'Proxima Nova';
 }
 
@@ -372,7 +372,7 @@ button {
 
 
 header {
-    margin-top: 55px;
+    margin-top: 85px;
     margin-bottom: 40px;
 }
 
@@ -380,17 +380,17 @@ header {
 
 .title {
     text-align: center;
-    font-size: 52px;
+    font-size: var(--font_size_title);
     font-style: normal;
     font-weight: 800;
     line-height: 98.049%; 
-    color: #fff;
-    margin-bottom: 35px; 
+    color: var(--text_color);
+    margin-bottom: 23px; 
 }
 .text {
     color: #C2C2C2;
     text-align: center;
-    font-size: 20px;
+    font-size: var(--font_size);
     font-style: normal;
     font-weight: 700;
     line-height: 133.3%; 
@@ -398,16 +398,19 @@ header {
 .first_section {
     padding-bottom: 123px;
 }
+.first_section-photo {
+    width: 177px;
+    height: 76px;
+}
 .first_section-wrap {
     display: flex;
-    align-items: flex-end;
     justify-content: space-between;
 }
 .first_section-info {
     max-width: 545px;
     width: 100%;
     flex-shrink: 0;
-    margin-top: 100px;
+    margin-top: 86px;
 }
 .first_section-title {
     text-align: start;
@@ -415,8 +418,8 @@ header {
     font-style: normal;
     font-weight: 800;
     line-height: 98.049%;
-    margin-bottom: 65px;
-    color: #fff;
+    margin-bottom: 45px;
+    color: var(--text_color);
     position: relative;
     display: inline-block;
 }
@@ -441,10 +444,10 @@ header {
     text-align: start;
     font-size: 22px;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     line-height: 133.3%;
-    margin-bottom: 70px;
-    color: #fff;
+    margin-bottom: 60px;
+    color: var(--text_color);
 }
 .text span {
     background: var(--123, linear-gradient(334deg, #88CB1A -0.9%, #F2FF5B 99.84%));
@@ -470,6 +473,7 @@ header {
     margin-top: 76px;
     display: flex;
     gap: 45px;
+    margin-left: 15px;
 }
 .first_section-number {
     font-size: 63px;
@@ -483,12 +487,11 @@ header {
     -webkit-text-fill-color: transparent;
 }
 .first_section-user {
-    color: #FFF;
+    color: var(--text_color);
     font-size: 15px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-top: 19px;
     position: relative;
     padding-left: 18px;
 }
@@ -505,11 +508,15 @@ header {
 .first_section-img {
     position: relative;
     z-index: 2;
+    margin-top: -50px;
+    margin-left: -45px;
+    width: 906px;
+    height: 873px;
 }
 .first_section-img:before {
     z-index: -1;
-    top: -134px;
-    left: 190px;
+    top: -110px;
+    left: 290px;
     position: absolute;
     content: "";
     width: 779px;
@@ -528,7 +535,7 @@ header {
 .fact_text {
     max-width: 947px;
     text-align: center;
-    margin: 0 auto 75px;
+    margin: 0 auto 70px;
 }
 .fact_items {
     gap: 32px;
@@ -540,7 +547,7 @@ header {
     background: linear-gradient(210deg, #343434 0%, #252525 100%);
     box-shadow: 0px 9.377px 32.308px 0px rgba(0, 0, 0, 0.03);
     transition: all .2s;
-    padding: 75px 51px 51px 51px;
+    padding: 75px 51px 75px 51px;
     flex: 1 1 calc(33.333% - 32px);
 }
 .fact_item:hover {
@@ -561,21 +568,21 @@ header {
     background: #1f1f1f;
 }
 .fact_item-title {
-    color: #FFF;
+    color: var(--text_color);
     font-size: 32px;
     font-style: normal;
     font-weight: 800;
     line-height: 116.319%; 
-    margin-top: 85px;
+    margin-top: 70px;
     transition: all .2s;
 }
 .fact_item-text {
     color: #C2C2C2;
-    font-size: 20px;
+    font-size: var(--font_size);
     font-style: normal;
     font-weight: 600;
     line-height: 133.3%; 
-    margin-top: 30px;
+    margin-top: 17px;
     transition: all .2s;
 }
 .fact_item:hover .fact_item-title {
@@ -587,6 +594,7 @@ header {
 .fact_item:nth-child(4) {
     display: flex;
     gap: 50px;
+    padding: 60px 51px;
 }
 .fact_item:nth-child(4) .fact_item-title {
     margin-top: 0;
@@ -602,6 +610,7 @@ header {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;   
+    font-weight: 700;
 }
 .fact_item:nth-child(4):hover .fact_item-title span {
     background: #33470D;  
@@ -621,7 +630,7 @@ header {
 
 
 .algorithm_text {
-    margin-bottom: 67px;
+    margin-bottom: 88px;
 }
 .tabs_container {
     display: flex;
@@ -631,6 +640,7 @@ header {
     display: flex;
     flex-direction: column;
     width: calc(100% - 600px);
+    margin-top: 17px;
 }
 .tabs button {
     border-radius: 29px;
@@ -643,20 +653,20 @@ header {
     display: flex;
     align-items: center;
     gap: 25px;
-    color: #FFF;
+    color: var(--text_color);
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
     line-height: 116.319%; 
 }
 .tabs button .tabs_desc {
-    color: #fff;
-    font-size: 20px;
+    color: var(--text_color);
+    font-size: var(--font_size);
     font-style: normal;
     font-weight: 600;
     line-height: 133.3%; 
     text-align: start;
-    margin-top: 24px;
+    margin-top: 15px;
 }
 .tabs button:hover {
     background: var(--123, linear-gradient(334deg, #88CB1A -0.9%, #F2FF5B 99.84%));
@@ -725,7 +735,7 @@ header {
 
 
 .mode_text {
-    margin-bottom: 55px;
+    margin-bottom: 75px;
 }
 .mode_item-img {
     width: 182px;
@@ -739,8 +749,8 @@ header {
     border: 14px solid #252525;
 }
 .mode_item-title {
-    margin-top: 40px;
-    color: #FFF;
+    margin-top: 46px;
+    color: var(--text_color);
     font-size: 32px;
     font-style: normal;
     font-weight: 800;
@@ -748,11 +758,11 @@ header {
 }
 .mode_item-text {
     color: #C2C2C2;
-    font-size: 20px;
+    font-size: var(--font_size);
     font-style: normal;
     font-weight: 600;
     line-height: 133.3%; 
-    margin-top: 35px;
+    margin-top: 23px;
 }
 .mode_items {
     gap: 32px;
@@ -798,7 +808,7 @@ header {
 }
 .demo_wrap {
     position: relative;
-    padding: 72px 0 68px;
+    padding: 65px 0 68px;
 }
 .demo_info {
     width: calc(100% - 835px);
@@ -809,15 +819,15 @@ header {
     font-style: normal;
     font-weight: 800;
     line-height: 60px; 
-    margin-bottom: 42px;
+    margin-bottom: 26px;
 }
 .demo_text {
     color: #1F1F1F;
-    font-size: 20px;
+    font-size: var(--font_size);
     font-style: normal;
     font-weight: 700;
     line-height: 133.3%; 
-    margin-bottom: 43px;
+    margin-bottom: 37px;
 }
 .demo_link {
     border-radius: 41px;
@@ -825,7 +835,7 @@ header {
     box-shadow: 0px 17.075px 76.84px -10.245px rgba(130, 199, 61, 0.60);
     width: 329px;
     height: 73px;
-    color: #FFF;
+    color: var(--text_color);
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
@@ -836,14 +846,16 @@ header {
 }
 .demo_img {
     position: absolute;
-    top: -128px;
+    top: -173px;
     right: 0;
+    width: 760px;
+    height: 813px;
 }
 
 
 
 .advantages_text {
-    margin-bottom: 55px;
+    margin-bottom: 70px;
 }
 .advantages .swiper-slide {
     padding: 31px;
@@ -853,7 +865,7 @@ header {
     display: flex;
     align-items: center;
     gap: 27px;
-    color: #FFF;
+    color: var(--text_color);
     font-size: 29px;
     font-style: normal;
     font-weight: 700;
@@ -872,7 +884,7 @@ header {
 
 .intellect {
     position: relative;
-    margin: 0 30px;
+    margin: 0 30px 130px;
     border-radius: 21px;
     background: url(../images/intellect_bg.png), rgba(0, 0, 0, 0.06);
     background-repeat: no-repeat;
@@ -883,9 +895,12 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 32px;
 }
 .intellect_img {
-    margin-left: -50px;
+    margin-left: -116px;
+    width: 808px;
+    height: 748px;
 }
 .intellect_title {
     text-align: start;
@@ -894,7 +909,7 @@ header {
     list-style: none;
 }
 .intellect_info ul li {
-    color: #FFF;
+    color: var(--text_color);
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
@@ -931,6 +946,7 @@ header {
     display: block;
     text-decoration: none;
     text-align: center;
+    margin-left: 50px;
 }
 
 
@@ -952,27 +968,27 @@ header {
     height: 100%;
 }
 .benefits_item-title {
-    color: #FFF;
+    color: var(--text_color);
     font-size: 32px;
     font-style: normal;
     font-weight: 800;
     line-height: 116.319%; 
-    margin-top: 85px;
+    margin-top: 75px;
 }
 .benefits_item-text {
     color: #C2C2C2;
-    font-size: 20px;
+    font-size: var(--font_size);
     font-style: normal;
     font-weight: 600;
     line-height: 133.3%; 
-    margin-top: 33px;
+    margin-top: 18px;
     max-width: 311px;
 }
 
 
 
 .faq_text {
-    margin-bottom: 55px;
+    margin-bottom: 75px;
 }
 .accordion_item {
     margin-bottom: 23px;
@@ -996,7 +1012,7 @@ header {
     background: linear-gradient(334deg, #88CB1A -0.9%, #F2FF5B 99.84%);
 }
 .accordion_item .head .accordion_title {
-    color: #FFF;
+    color: var(--text_color);
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -1010,7 +1026,7 @@ header {
 }
 .accordion_item .data {
     color: #C2C2C2;
-    font-size: 20px;
+    font-size: var(--font_size);
     font-style: normal;
     font-weight: 700;
     line-height: 133.3%;
@@ -1035,7 +1051,7 @@ header {
 .accordion_item .faq_btn span,
 .accordion_item .faq_btn b {
     display: block;
-    color: #FFF;
+    color: var(--text_color);
     text-align: center;
     font-size: 64px;
     font-style: normal;
@@ -1137,15 +1153,15 @@ header {
     font-style: normal;
     font-weight: 800;
     line-height: 90.909%;
-    margin-bottom: 38px;
+    margin-bottom: 28px;
 }
 .callback_text {
     color: #1F1F1F;
-    font-size: 20px;
+    font-size: var(--font_size);
     font-style: normal;
     font-weight: 700;
     line-height: 133.3%; 
-    margin-bottom: 41px;
+    margin-bottom: 33px;
 }
 .callback .line { 
     display: flex;
@@ -1174,7 +1190,7 @@ header {
     flex-basis: 201px;
 }
 .callback .line .field button {
-    color: #FFF;
+    color: var(--text_color);
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
@@ -1189,7 +1205,7 @@ header {
 
 
 .price_text {
-    margin-bottom: 52px;
+    margin-bottom: 40px;
 }
 .price_text b {
     background: linear-gradient(334deg, #88CB1A -0.9%, #F2FF5B 99.84%);
@@ -1213,7 +1229,7 @@ header {
 }
 .price_item:nth-child(1) {
     width: 100%;
-    padding: 39px 33px 39px 42px;
+    padding: 35px 33px 35px 42px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -1231,12 +1247,12 @@ header {
     align-items: center;
 }
 .price_item-title {
-    color: #FFF;
+    color: var(--text_color);
     font-size: 32px;
     font-style: normal;
     font-weight: 800;
     line-height: 116.319%; 
-    margin-bottom: 18px;
+    margin-bottom: 5px;
 }
 .price_item-title span {
     background: linear-gradient(334deg, #88CB1A -0.9%, #F2FF5B 99.84%);
@@ -1250,7 +1266,7 @@ header {
 }
 .price_item-text {
     color: #C2C2C2;
-    font-size: 20px;
+    font-size: var(--font_size);
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -1260,7 +1276,7 @@ header {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 20px;
+    font-size: var(--font_size);
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -1295,10 +1311,11 @@ header {
     font-weight: 900;
     line-height: 72px; 
     margin-right: 27px;
+    flex-shrink: 0;
 }
 .price_label {
-    color: #FFF;
-    font-size: 20px;
+    color: var(--text_color);
+    font-size: var(--font_size);
     font-style: normal;
     font-weight: 700;
     line-height: 133.3%;
@@ -1334,7 +1351,7 @@ footer .cont {
     align-items: center;
     text-transform: uppercase;
     color: #C2C2C2;
-    font-size: 20px;
+    font-size: var(--font_size);
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -1343,6 +1360,8 @@ footer .cont {
 .footer_contact a img {
     display: block;
     margin-right: 10px;
+    width: 25px;
+    height: 26px;
 }
 .footer_contact a + a {
     margin-top: 11px;
