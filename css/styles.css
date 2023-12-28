@@ -1314,3 +1314,36 @@ header {
     -webkit-text-fill-color: transparent;  
 }
 
+
+
+
+footer {
+    padding-bottom: 70px;  
+}
+footer .cont {
+    border-top: 1px solid #555;
+    padding-top: 65px;
+}
+.footer_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer_contact a {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #C2C2C2;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+.footer_contact a img {
+    display: block;
+    margin-right: 10px;
+}
+.footer_contact a + a {
+    margin-top: 11px;
+}
