@@ -63,8 +63,8 @@ $(() => {
 
 	var mySwiper = new Swiper('.advantages .swiper', {
 		speed: 17000,
-		slidesPerView: 5,
-		spaceBetween: 50,
+		slidesPerView: 4,
+		spaceBetween: 48,
 		loop: true,
 		autoplay: {
 			delay: 0,
@@ -90,8 +90,17 @@ $(() => {
 
 			992: {
 				speed: 17000,
-				slidesPerView: 4,
+				slidesPerView: 3,
 				spaceBetween: 40,
+				autoplay: {
+					delay: 0,
+				},
+			},
+
+			1600: {
+				speed: 17000,
+				slidesPerView: 4,
+				spaceBetween: 30,
 				autoplay: {
 					delay: 0,
 				},
@@ -102,7 +111,7 @@ $(() => {
 
 	var mySwiper2 = new Swiper('.benefits .swiper', {
 		speed: 17000,
-		slidesPerView: 5,
+		slidesPerView: 4,
 		spaceBetween: 50,
 		loop: true,
 		autoplay: {
@@ -129,7 +138,7 @@ $(() => {
 
 			992: {
 				speed: 17000,
-				slidesPerView: 4,
+				slidesPerView: 3,
 				spaceBetween: 40,
 				autoplay: {
 					delay: 0,
