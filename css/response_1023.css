@@ -80,6 +80,42 @@
     .price_text b {
         font-size: 20px;
     }
+    .accordion_item .head {
+        padding: 20px 32px;
+        border-radius: 13px;
+    }
+    .accordion_item .faq_btn span, .accordion_item .faq_btn b {
+        font-size: 52px;
+        top: 4px;
+    }
+    .demonstration-block .video_link {
+        width: 100%;
+        height: auto;
+    }
+    .demo_img {
+        position: relative;
+        top: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .demo_info {
+        width: 100%;
+    }
+    .demo_title {
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .demo_link {
+        margin: 0 auto;
+    }
+    .demo_text {
+        text-align: center;
+    }
+    .demo {
+        margin-bottom: 100px;
+        margin-top: 0;
+    }
     
   
     

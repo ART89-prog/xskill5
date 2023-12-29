@@ -1,9 +1,14 @@
 @media print, (max-width: 767px) {
 
     :root {
-        --font_size_title: 28px;
+        --font_size_title: 30px;
         --font_size: 18px;
     }
+    .callback .line .field {
+        flex: 1 1 100%;
+    }
+
+
  
 
 
