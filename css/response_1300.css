@@ -4,6 +4,39 @@
         --font_size_title: 46px;
         --font_size: 20px;
     }
+    .block {
+        padding-bottom: 100px;
+    }
+    .first_section-img {
+        width: 670px;
+        height: 645px;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .first_section-info {
+        max-width: 475px;
+    }
+    .first_section-title {
+        font-size: 60px;
+    }
+    .first_section-img:before {
+        height: 820px;
+    }
+    .demo_img {
+        top: -90px;
+        right: 0;
+        width: 620px;
+        height: 689px;
+    }
+    .demo_info {
+        width: calc(100% - 635px);
+    }
+    .demo {
+        margin-bottom: 210px;
+    }
+    .advantages .swiper-slide {
+        font-size: 24px;
+    }
     
 
 
