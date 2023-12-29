@@ -59,7 +59,8 @@
         width: 100%;
         margin-left: auto;
         margin-right: auto;
-        padding-bottom: 81px;
+        padding-bottom: 0px;
+        margin-bottom: 30px;
         padding-right: 0px;
     }
     .callback {
@@ -67,8 +68,19 @@
         margin-bottom: 80px;
     }
     .callback_title {
-        font-size: 30px;
+        font-size: 34px;
+        text-align: center;
     }
+    .callback_text {
+        text-align: center;
+    }
+    .callback_img {
+        margin: 0 auto;
+    }
+    .price_text b {
+        font-size: 20px;
+    }
+    
   
     
 
