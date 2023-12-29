@@ -664,6 +664,9 @@ header {
     font-weight: 700;
     line-height: 116.319%; 
 }
+.tabs button .tabs_head span {
+    text-align: start;
+}
 .tabs button .tabs_desc {
     color: var(--text_color);
     font-size: var(--font_size);
@@ -1254,7 +1257,6 @@ header {
     flex: 1 1 calc(50% - 32px);
     padding: 32px;
     display: flex;
-    align-items: center;
 }
 .price_item:nth-child(3) {
     flex: 1 1 calc(50% - 32px);

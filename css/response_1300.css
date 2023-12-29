@@ -37,6 +37,12 @@
     .advantages .swiper-slide {
         font-size: 24px;
     }
+    .tabs_container {
+        gap: 35px;
+    }
+    .tabs {
+        width: calc(100% - 548px);
+    }
     
 
 

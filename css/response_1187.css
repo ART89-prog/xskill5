@@ -1,5 +1,60 @@
 @media print, (max-width: 1187px) {
 
+    .first_section-title b {
+        display: none;
+    }
+    .first_section-title {
+        font-size: 46px;
+    }
+    .first_section-info {
+        max-width: 425px;
+    }
+    .first_section-number {
+        font-size: 54px;
+    }
+    .first_section-bottom {
+        margin-top: 76px;
+        gap: 25px;
+        margin-left: 0;
+    }
+    .first_section-img {
+        width: 554px;
+        height: 577px;
+    }
+    .fact_item-title,
+    .mode_item-title,
+    .benefits_item-title {
+        font-size: 27px;
+        margin-top: 35px;
+    }
+    .mode_item,
+    .benefits_item,
+    .fact_item {
+        padding: 40px 30px;
+        border-radius: 30px;
+    }
+    .demo_img {
+        top: -90px;
+        right: 0;
+        width: 440px;
+        height: 534px;
+    }
+    .demo_info {
+        width: calc(100% - 460px);
+    }
+    .demo_title {
+        font-size: 46px;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+    .demo_wrap {
+        padding: 40px 0 40px;
+    }
+    .demo {
+        margin-bottom: 150px;
+    }
+
+
 
 
 
