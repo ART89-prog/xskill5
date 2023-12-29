@@ -70,6 +70,14 @@ $(() => {
 			delay: 0,
 		},
 		breakpoints: {
+			0: {
+				speed: 17000,
+				slidesPerView: 1,
+				spaceBetween: 20,
+				autoplay: {
+					delay: 0,
+				},
+			},
 			576: {
 				speed: 17000,
 				slidesPerView: 2,
@@ -118,6 +126,14 @@ $(() => {
 			delay: 0,
 		},
 		breakpoints: {
+			0: {
+				speed: 17000,
+				slidesPerView: 1,
+				spaceBetween: 20,
+				autoplay: {
+					delay: 0,
+				},
+			},
 			576: {
 				speed: 17000,
 				slidesPerView: 2,

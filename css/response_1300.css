@@ -43,6 +43,17 @@
     .tabs {
         width: calc(100% - 548px);
     }
+    .intellect_img {
+        margin-left: 0;
+        width: 480px;        
+        height: auto;
+    }
+    .intellect_img img {
+        width: 100%;
+    }
+    .intellect_info {
+        width: calc(100% - 510px);
+    }
     
 
 

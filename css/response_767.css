@@ -2,12 +2,160 @@
 
     :root {
         --font_size_title: 30px;
-        --font_size: 18px;
+        --font_size: 17px;
     }
     .callback .line .field {
         flex: 1 1 100%;
     }
-
+    .fact_item {
+        flex: 1 1 100%;
+    }
+    .fact_items {
+        gap: 15px;
+    }
+    .first_section {
+        padding-bottom: 20px;
+    }
+    .tabs_container {
+        flex-direction: column;
+    }
+    .algorithm_img {
+        margin: 0 auto;
+    }
+    .tabs {
+        width: 100%;
+    }
+    .icon {
+        width: 40px;
+        height: 40px;
+        padding: 6px;
+    }
+    .tabs button {
+        border-radius: 10px;
+        padding: 10px;
+    }
+    .tabs button .tabs_head {
+        font-size: 20px;
+    }
+    .algorithm_img {
+        width: 260px;
+    }
+    .price_item:nth-child(1) {
+        flex-direction: column;
+    }
+    .price_item:nth-child(1),
+    .price_item:nth-child(2),
+    .price_item:nth-child(3) {
+        padding: 15px;
+        border-radius: 15px;
+    }
+    .price_item:nth-child(1) .price_item-info {
+        width: 100%; 
+        margin-bottom: 20px;
+    }
+    .price_item-title {
+        font-size: 20px;       
+    }
+    .price_item-number {
+        width: 40px;
+        height: 40px;
+        font-size: 24px;
+        line-height: 40px;
+        margin-right: 18px;
+    }
+    .price_item:nth-child(2),
+    .price_item:nth-child(3) {
+        flex: 1 1 100%;
+    }
+    .price_label {
+        margin-top: 17px;
+    }
+    .price_items {
+        gap: 15px;
+    }
+    .accordion_item .head .accordion_title {
+        font-size: 20px;
+    }
+    .accordion_item .faq_btn span, 
+    .accordion_item .faq_btn b {
+        font-size: 44px;
+        top: 6px;
+    }
+    .accordion_item {
+        margin-bottom: 15px;
+    }
+    .demo_img {
+        width: 400px;
+        height: auto;
+    }
+    .accordion_item .head {
+        padding: 15px 20px;
+    }
+    .accordion_item .faq_btn span, 
+    .accordion_item .faq_btn b {
+        font-size: 34px;
+    }
+    .demonstration-block .video_link .icon4 {
+        width: 58px;
+        height: 57px;
+    }
+    footer {
+        padding-bottom: 30px;
+    }
+    footer .cont {
+        padding-top: 30px;
+    }
+    .block {
+        padding-bottom: 50px;
+    }
+    .price_label span {
+        font-size: 24px;
+    }
+    .first_section-info {
+        margin-top: 40px;
+    }
+    .fact_item-title, 
+    .mode_item-title, 
+    .benefits_item-title {
+        font-size: 21px;
+        margin-top: 15px;
+    }
+    .fact_item-text,
+    .mode_item-text {
+        margin-top: 13px;
+    }
+    .mode_item-img {
+        width: 112px;
+        height: 112px;
+    }
+    .mode_item, 
+    .benefits_item, 
+    .fact_item, 
+    .fact_item:nth-child(4) {
+        padding: 18px;
+    }
+    .mode_item {
+        flex: 1 1 100%;
+    }
+    .demo {
+        margin: 0 15px 70px;
+    }
+    .advantages .swiper-slide {
+        font-size: 20px;
+    }
+    .mt47 {
+        margin-top: 20px;
+    }
+    .intellect_info ul li {
+        font-size: 18px;
+    }
+    .intellect_img {
+        width: 310px;
+    }
+    .callback_title {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
 
  
 

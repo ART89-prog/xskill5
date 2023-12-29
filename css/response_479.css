@@ -4,7 +4,112 @@
         --font_size_title: 26px;
         --font_size: 16px;
     }
-    
+    .callback_img {
+        width: 100%;
+        height: auto;
+    }
+    .first_section-text {
+        font-size: 18px;
+    }
+    .text {
+        margin-bottom: 30px;
+    }
+    .first_section-link {
+        width: 100%;
+        text-align: center;
+    }
+    .first_section-bottom {
+        margin-top: 25px;
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    .first_section-col {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .fact_item-title, 
+    .mode_item-title, 
+    .benefits_item-title {
+        font-size: 19px;
+        margin-top: 13px;
+    }
+    .demo_link {
+        width: 100%;
+    }
+    .demo_img {
+        width: 100%;
+    }
+    .demo_title {
+        font-size: 26px;
+        line-height: 1.2;
+        margin-bottom: 10px;
+    }
+    .demo_wrap {
+        padding: 20px 0 20px;
+    }
+    .intellect_info ul li {
+        font-size: 16px;
+    }
+    .intellect {
+        margin: 0 15px 20px;
+    }
+    .intellect_link {
+        width: 100%;
+    }
+    .intellect_img {
+        width: 100%;
+    }
+    .callback_title {
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+    .callback {
+        margin: 0 15px 70px;
+    }
+    .callback_text {
+        margin-bottom: 20px;
+    }
+    .callback .line {
+        gap: 15px;
+    }
+    .price_item-link {
+        width: 100%;
+    }
+    .price_text b {
+        font-size: 17px;
+    }
+    .price_item-title span {
+        font-size: 24px;
+    }
+    .accordion_item .head .accordion_title {
+        font-size: 18px;
+    }
+    .accordion_item .faq_btn span, 
+    .accordion_item .faq_btn b {
+        font-size: 24px;
+        top: 12px;
+        right: 20px;
+    }
+    .accordion_item.active .faq_btn b {
+        margin-top: -2px;
+        margin-right: 5px;
+    }
+    .accordion_item .data {
+        margin-top: 10px;
+        padding: 15px;
+    }
+    .footer_wrap {
+        flex-direction: column;
+    }
+    .footer_contact {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
 
 

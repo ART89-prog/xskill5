@@ -1,7 +1,7 @@
 @media print, (max-width: 1023px) {
  
     :root {
-        --font_size_title: 30px;
+        --font_size_title: 32px;
         --font_size: 18px;
     }
     .first_section-wrap {
@@ -115,6 +115,73 @@
     .demo {
         margin-bottom: 100px;
         margin-top: 0;
+    }
+    .intellect_wrap {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .intellect_info {
+        width: 100%;
+    }
+    .intellect_title {
+        text-align: center;
+    }
+    .intellect {
+        margin: 0 30px 50px;
+    }
+    .demo::after,
+    .demo::before {
+        display: none;
+    } 
+    .first_section {
+        padding-bottom: 15px;
+    }
+    header {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .first_section-info {
+        margin-top: 60px;
+    }
+    .first_section-title {
+        font-size: 36px;
+    }
+    .first_section-text {
+        font-size: 20px;
+    }
+    .first_section-bottom {
+        margin-top: 40px;
+        gap: 20px;
+    }
+    .text {
+        margin-bottom: 35px;
+    }
+    .fact_item-title, 
+    .mode_item-title, 
+    .benefits_item-title {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    .block {
+        padding-bottom: 80px;
+    }
+    .mode_item, 
+    .benefits_item, 
+    .fact_item,
+    .fact_item:nth-child(4) {
+        padding: 25px 20px;
+        border-radius: 15px;
+    }
+    .fact_item:nth-child(4) {
+        gap: 15px;
+    }
+    .mode_items, 
+    .benefits_items, 
+    .fact_items {
+        gap: 20px;
+    }
+    .intellect_link {
+        margin: 0 auto;
     }
     
   
