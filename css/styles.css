@@ -1262,7 +1262,6 @@ header {
     flex: 1 1 calc(50% - 32px);
     padding: 32px;
     display: flex;
-    align-items: center;
 }
 .price_item-title {
     color: var(--text_color);
@@ -1270,7 +1269,10 @@ header {
     font-style: normal;
     font-weight: 800;
     line-height: 116.319%; 
-    margin-bottom: 5px;
+    margin-bottom: 5px;    
+}
+.price_item:nth-child(1) .price_item-info {
+    width: calc(100% - 300px);
 }
 .price_item-title span {
     background: linear-gradient(334deg, #88CB1A -0.9%, #F2FF5B 99.84%);

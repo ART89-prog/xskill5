@@ -2,6 +2,72 @@
  
     :root {
         --font_size_title: 30px;
+        --font_size: 18px;
+    }
+    .first_section-wrap {
+        flex-direction: column;
+    }
+    .first_section-img:before {
+        display: none;
+    }
+    .first_section-info {
+        max-width: 100%;
+    } 
+    .first_section-img {
+        width: 100%;
+        height: auto;
+    }
+    .fact_item {
+        flex: 1 1 calc(50% - 32px);
+    }
+    .fact_item:nth-child(4) {
+        padding: 40px 30px;
+        flex-direction: column;
+        gap: 35px;
+    }
+    .fact_item-title br {
+        display: none;
+    }
+    .algorithm_img {
+        width: 315px;
+        height: auto;
+    }
+    .tabs button .tabs_head {
+        font-size: 24px;
+    }
+    .tabs {
+        width: calc(100% - 350px);
+        margin-top: 0;
+    }
+    .tabs button {
+        border-radius: 15px;
+        padding: 12px;
+    }
+    .tabs button + button {
+        margin-top: 10px;
+    }
+    .advantages .swiper-slide {
+        padding: 15px;
+        border-radius: 15px;
+        gap: 15px;
+        font-size: 22px;
+    }
+    .callback_wrap {
+        flex-direction: column-reverse;
+    }
+    .callback_info {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 81px;
+        padding-right: 0px;
+    }
+    .callback {
+        padding-top: 30px;
+        margin-bottom: 80px;
+    }
+    .callback_title {
+        font-size: 30px;
     }
   
     

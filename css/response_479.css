@@ -1,8 +1,8 @@
 @media (max-width: 479px) {
 
     :root {
-        --font_size_title: 18px;
-        --font_size: 12px;
+        --font_size_title: 24px;
+        --font_size: 16px;
     }
     
 
