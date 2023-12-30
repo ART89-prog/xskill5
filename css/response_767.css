@@ -9,6 +9,9 @@
     }
     .fact_item {
         flex: 1 1 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .fact_items {
         gap: 15px;
@@ -128,6 +131,7 @@
     .fact_item-text,
     .mode_item-text {
         margin-top: 13px;
+        text-align: center;
     }
     .mode_item-img {
         width: 112px;
@@ -141,6 +145,9 @@
     }
     .mode_item {
         flex: 1 1 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .demo {
         margin: 0 15px 70px;
