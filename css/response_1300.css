@@ -8,13 +8,16 @@
         padding-bottom: 100px;
     }
     .first_section-img {
-        width: 670px;
-        height: 645px;
+        width: 100%;
+        height: auto;
         margin-top: 0;
         margin-left: 0;
     }
+    .first_section-img img {
+        width: 100%;
+    }
     .first_section-info {
-        max-width: 475px;
+        max-width: 490px;
     }
     .first_section-title {
         font-size: 60px;

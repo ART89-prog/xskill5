@@ -399,8 +399,8 @@ header {
     padding-bottom: 123px;
 }
 .first_section-photo {
-    width: 177px;
-    height: 76px;
+    width: 207px;
+    height: 104px;
 }
 .first_section-wrap {
     display: flex;
@@ -472,6 +472,7 @@ header {
 .first_section-bottom {
     margin-top: 76px;
     display: flex;
+    align-items: center;
     gap: 45px;
     margin-left: 15px;
 }
@@ -512,11 +513,6 @@ header {
     margin-left: -45px;
     width: 906px;
     height: 873px;
-}
-.first_section-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
 }
 .first_section-img:before {
     z-index: -1;
