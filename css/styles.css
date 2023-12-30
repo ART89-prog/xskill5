@@ -671,6 +671,10 @@ header {
     line-height: 133.3%; 
     text-align: start;
     margin-top: 15px;
+    display: none;
+}
+.tabs button.active .tabs_desc {
+    display: block;
 }
 .tabs button:hover {
     background: var(--123, linear-gradient(334deg, #88CB1A -0.9%, #F2FF5B 99.84%));
@@ -880,13 +884,63 @@ header {
     font-weight: 700;
     line-height: 116.319%; 
 }
-.icon2 {
+.icon20 {
     width: 72px;
     height: 73px;    
     flex-shrink: 0;
+    border-radius: 50%;
+    padding: 12px;
+}
+.icon21 {
+    background: #49D087;
+}
+.icon22 {
+    background: #FF4141;
+}
+.icon23 {
+    background: #5BCC34;
+}
+.icon24 {
+    background: #3A71DC;
+}
+.icon25 {
+    background: #CF5085;
+}
+.icon26 {
+    background: #5BCC34;
+}
+.icon27 {
+    background: #5BCC34;;
+}
+.icon28 {
+    background: #3A71DC;
 }
 .mt47 {
     margin-top: 47px;
+}
+.icon29 {
+    background: #8693D5;
+}
+.icon30 {
+    background: #822DEE;
+}
+.icon31 {
+    background: #EB7100;
+}
+.icon32 {
+    background: #6AB4BF;
+}
+.icon33 {
+    background: #8693D5; 
+}
+.icon34 {
+    background: #8693D5;
+}
+.icon35 {
+    background: #822DEE;
+}
+.icon36 {
+    background: #EB7100;
 }
 
 
@@ -994,8 +1048,29 @@ header {
     font-weight: 600;
     line-height: 133.3%; 
     margin-top: 18px;
-    max-width: 311px;
 }
+.icon41 {
+    background: #822DEE;
+}
+.icon42 {
+    background: #5BCC34;
+}
+.icon43 {
+    background: #FF4141;
+}
+.icon44 {
+    background: #3A71DC;
+}
+.icon45 {
+    background: #CF5085;
+}
+.icon46 {
+    background: #EB7100;
+}
+.icon47 {
+    background: #6AB4BF;
+}
+
 
 
 
@@ -1145,8 +1220,8 @@ header {
     align-items: flex-end;
 }
 .callback_img {
-    width: 370px;
-    height: 357px;
+    width: 548px;
+    height: 406px;
 }
 .callback_img img {
     width: 100%;
@@ -1379,4 +1454,23 @@ footer .cont {
 }
 .footer_contact a + a {
     margin-top: 11px;
+}
+
+
+.modal {
+    display: none;
+    max-width: 320px;
+    width: 100%;
+    border-radius: 12px;
+    padding: 80px 20px;
+    background: linear-gradient(334deg, #88CB1A -0.9%, #F2FF5B 99.84%);
+}
+.modal_text {
+    text-align: center;
+    text-transform: uppercase;
+    color: #1F1F1F;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;   
 }

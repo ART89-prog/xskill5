@@ -38,6 +38,7 @@
 	<link rel="stylesheet" href="css/fancybox.css">
 	<link rel="stylesheet" href="css/swiper-bundle.min.css">
 	<link rel="stylesheet" href="css/swiper.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 	<link rel="stylesheet" href="css/styles.css">
 
@@ -66,7 +67,7 @@
 						<div class="first_section-info">
 							<div class="first_section-title title">Приложение для <span>обучения переговорам</span> <b></b></div>
 							<div class="first_section-text text">Это виртуальный тренер, который общается голосом, как Siri или Алиса. <span>Погружает в реальные ситуации и ведет себя как настоящий клиент</span></div>
-							<a href="#" class="first_section-link">Попробовать Демо-Период</a>
+							<a href="#callback" class="first_section-link scroll">Попробовать Демо-Период</a>
 							<div class="first_section-bottom">
 								<div class="first_section-photo">
 									<img data-src="images/photo.png" alt="" class="lozad">
@@ -85,7 +86,7 @@
 			</section>
 
 
-			<section class="fact block">
+			<section class="fact block" data-aos="fade-down-right">
 				<div class="cont">
 					<div class="fact_title title"><span>Факты</span> Рынка Труда</div>
 					<div class="fact_text text">Служба Яндекс.Рефераты предназначена <span>для студентов и школьников, дизайнеров и журналистов,</span> создателей научных заявок и отчетов — для всех, кто относится к тексту, как к количеству знаков</div>
@@ -125,7 +126,7 @@
 			</section>
 
 
-			<section class="algorithm block">
+			<section class="algorithm block" data-aos="fade-down-left">
 				<div class="cont">
 					<div class="algorithm_title title"><span>Алгоритм</span> Работы</div>
 					<div class="algorithm_text text">Служба Яндекс.Рефераты предназначена для <span>студентов и школьников, дизайнеров и журналистов,</span> создателей научных заявок и отчетов — для всех, кто относится к тексту, как к количеству знаков</div>
@@ -170,15 +171,16 @@
 						</div>
 
 						<div class="tabs">
-							<button data-content="#tab1" data-level="level1" class="active">
+							<button data-content="#tab1" data-level="level1">
 								<div class="tabs_head">
 									<svg class="icon">
 										<use xlink:href="images/sprite.svg#alg1"></use>
 									</svg>
 									<span>Выбор тренажера</span>	
-								</div>								
+								</div>		
+								<div class="tabs_desc">Нажав на кнопку «Написать реферат», вы лично создаете уникальный текст, причем именно от вашего нажатия на кнопку зависит, какой именно текст получится</div>						
 							</button>
-							<button data-content="#tab2" data-level="level1">
+							<button data-content="#tab2" data-level="level1" class="active">
 								<div class="tabs_head">
 									<svg class="icon">
 										<use xlink:href="images/sprite.svg#alg2"></use>
@@ -194,6 +196,7 @@
 									</svg>
 									<span>Диалог с тренажером</span>										
 								</div>	
+								<div class="tabs_desc">Нажав на кнопку «Написать реферат», вы лично создаете уникальный текст, причем именно от вашего нажатия на кнопку зависит, какой именно текст получится</div>
 							</button>
 							<button data-content="#tab4" data-level="level1">
 								<div class="tabs_head">
@@ -202,6 +205,7 @@
 									</svg>
 									<span>Обратная связь от ИИ</span>										
 								</div>	
+								<div class="tabs_desc">Нажав на кнопку «Написать реферат», вы лично создаете уникальный текст, причем именно от вашего нажатия на кнопку зависит, какой именно текст получится</div>
 							</button>
 							<button data-content="#tab5" data-level="level1">
 								<div class="tabs_head">
@@ -210,6 +214,7 @@
 									</svg>
 									<span>Советы от экспертов</span>										
 								</div>	
+								<div class="tabs_desc">Нажав на кнопку «Написать реферат», вы лично создаете уникальный текст, причем именно от вашего нажатия на кнопку зависит, какой именно текст получится</div>
 							</button>
 							<button data-content="#tab6" data-level="level1">
 								<div class="tabs_head">
@@ -218,6 +223,7 @@
 									</svg>
 									<span>Оценка навыков</span>										
 								</div>	
+								<div class="tabs_desc">Нажав на кнопку «Написать реферат», вы лично создаете уникальный текст, причем именно от вашего нажатия на кнопку зависит, какой именно текст получится</div>
 							</button>
 						</div>
 					</div>
@@ -226,7 +232,7 @@
 
 
 
-			<section class="mode block">
+			<section class="mode block" data-aos="fade-down-right">
 				<div class="cont">
 					<div class="mode_title title">Режимы <span>Тренажера</span></div>
 					<div class="mode_text text">Служба Яндекс.Рефераты предназначена для <span>студентов и школьников, дизайнеров и журналистов,</span> создателей научных заявок и отчетов — для всех, кто относится к тексту, как к количеству знаков</div>
@@ -258,13 +264,13 @@
 
 
 
-			<section class="demo">
+			<section class="demo" data-aos="fade-down-left">
 				<div class="cont">
 					<div class="demo_wrap">
 						<div class="demo_info">
 							<div class="demo_title">Попробуйте сегодня!</div>
 							<div class="demo_text">Служба Яндекс.Рефераты предназначена для студентов и школьников, дизайнеров и журналистов, создателей научных заявок и отчетов</div>
-							<a href="#" class="demo_link">Попробовать Демо-Период</a>
+							<a href="#callback" class="demo_link scroll">Попробовать Демо-Период</a>
 						</div>
 						<div class="demo_img">
 							<img data-src="images/demo_img.png" alt="" class="lozad">
@@ -274,7 +280,7 @@
 			</section>
 
 
-			<section class="advantages block">
+			<section class="advantages block" data-aos="fade-down-right">
 				<div class="cont">
 					<div class="advantages_title title">Когда <span>Полезен</span> Тренажер</div>
 					<div class="advantages_text text">Служба Яндекс.Рефераты предназначена для <span>студентов и школьников, дизайнеров и журналистов,</span> создателей научных заявок и отчетов — для всех, кто относится к тексту, как к количеству знаков</div>
@@ -283,71 +289,71 @@
 				<div class="swiper">
 					<div class="swiper-wrapper">
 						<div class="swiper-slide">
-							<svg class="icon2"><use xlink:href="images/sprite.svg#adv1"></use></svg>
+							<svg class="icon20 icon21"><use xlink:href="images/sprite.svg#adv1"></use></svg>
 							<span>Эффективная презентация</span> 
 						</div>
 						<div class="swiper-slide">
-							<svg class="icon2"><use xlink:href="images/sprite.svg#adv2"></use></svg>
+							<svg class="icon20 icon22"><use xlink:href="images/sprite.svg#adv2"></use></svg>
 							<span>Повышение чека</span> 
 						</div>
 						<div class="swiper-slide">
-							<svg class="icon2"><use xlink:href="images/sprite.svg#adv3"></use></svg>
+							<svg class="icon20 icon23"><use xlink:href="images/sprite.svg#adv3"></use></svg>
 							<span>Закрытие сделки</span> 
 						</div>
 						<div class="swiper-slide">
-							<svg class="icon2"><use xlink:href="images/sprite.svg#adv4"></use></svg>
+							<svg class="icon20 icon24"><use xlink:href="images/sprite.svg#adv4"></use></svg>
 							<span>Холодные звонки</span> 
 						</div>
 						<div class="swiper-slide">
-							<svg class="icon2"><use xlink:href="images/sprite.svg#adv5"></use></svg>
+							<svg class="icon20 icon25"><use xlink:href="images/sprite.svg#adv5"></use></svg>
 							<span>Выявление потребностей</span> 
 						</div>
 						<div class="swiper-slide">
-							<svg class="icon2"><use xlink:href="images/sprite.svg#adv6"></use></svg>
+							<svg class="icon20 icon26"><use xlink:href="images/sprite.svg#adv6"></use></svg>
 							<span>Контроль <br>оплаты</span> 
 						</div>
 						<div class="swiper-slide">
-							<svg class="icon2"><use xlink:href="images/sprite.svg#adv7"></use></svg>
+							<svg class="icon20 icon27"><use xlink:href="images/sprite.svg#adv7"></use></svg>
 							<span>Отработка <br>дикции</span> 
 						</div>
 						<div class="swiper-slide">
-							<svg class="icon2"><use xlink:href="images/sprite.svg#adv8"></use></svg>
+							<svg class="icon20 icon28"><use xlink:href="images/sprite.svg#adv8"></use></svg>
 							<span>Негативные клиенты</span> 
 						</div>
 					</div>
 				</div>
-				<div class="swiper mt47">
+				<div class="swiper_mt47 mt47">
 					<div class="swiper-wrapper">
 						<div class="swiper-slide">
-							<svg class="icon2"><use xlink:href="images/sprite.svg#adv9"></use></svg>
+							<svg class="icon20 icon29"><use xlink:href="images/sprite.svg#adv9"></use></svg>
 							<span>Онбординг новичка</span> 
 						</div>
 						<div class="swiper-slide">
-							<svg class="icon2"><use xlink:href="images/sprite.svg#adv10"></use></svg>
+							<svg class="icon20 icon30"><use xlink:href="images/sprite.svg#adv10"></use></svg>
 							<span>Обучение новым продуктам</span> 
 						</div>
 						<div class="swiper-slide">
-							<svg class="icon2"><use xlink:href="images/sprite.svg#adv11"></use></svg>
+							<svg class="icon20 icon31"><use xlink:href="images/sprite.svg#adv11"></use></svg>
 							<span>Практика после тренинга</span> 
 						</div>
 						<div class="swiper-slide">
-							<svg class="icon2"><use xlink:href="images/sprite.svg#adv12"></use></svg>
+							<svg class="icon20 icon32"><use xlink:href="images/sprite.svg#adv12"></use></svg>
 							<span>Отработка возражений</span> 
 						</div>
 						<div class="swiper-slide">
-							<svg class="icon2"><use xlink:href="images/sprite.svg#adv13"></use></svg>
+							<svg class="icon20 icon33"><use xlink:href="images/sprite.svg#adv13"></use></svg>
 							<span>Знание <br>продукта</span> 
 						</div>
 						<div class="swiper-slide">
-							<svg class="icon2"><use xlink:href="images/sprite.svg#adv14"></use></svg>
+							<svg class="icon20 icon34"><use xlink:href="images/sprite.svg#adv14"></use></svg>
 							<span>Развитие <br>коммуникаций</span> 
 						</div>
 						<div class="swiper-slide">
-							<svg class="icon2"><use xlink:href="images/sprite.svg#adv15"></use></svg>
+							<svg class="icon20 icon35"><use xlink:href="images/sprite.svg#adv15"></use></svg>
 							<span>Сопутствующие <br>и доп. продажи</span> 
 						</div>
 						<div class="swiper-slide">
-							<svg class="icon2"><use xlink:href="images/sprite.svg#adv16"></use></svg>
+							<svg class="icon20 icon36"><use xlink:href="images/sprite.svg#adv16"></use></svg>
 							<span>Еще <br>100+ идей</span> 
 						</div>
 					</div>
@@ -355,7 +361,7 @@
 			</section>
 
 
-			<section class="intellect">
+			<section class="intellect" data-aos="fade-down-left">
 				<div class="cont">
 					<div class="intellect_wrap">
 						<div class="intellect_img">
@@ -373,14 +379,14 @@
 									<span><b>Масштабируемость:</b> <br>Подходит для индивидуального обучения любого количества сотрудников без потери качества.</span>
 								</li>
 							</ul>
-							<a href="#" class="intellect_link">Попробовать Демо-Период</a>
+							<a href="#callback" class="intellect_link scroll">Попробовать Демо-Период</a>
 						</div>
 					</div>
 				</div>
 			</section>
 
 
-			<section class="benefits block">
+			<section class="benefits block" data-aos="fade-down-right">
 				<div class="cont">
 					<div class="benefits_title title"><span>Преимущества</span> Нашей Технологии</div>
 					<div class="benefits_text text">Служба Яндекс.Рефераты предназначена для <span>студентов и школьников, дизайнеров и журналистов,</span> создателей научных заявок и отчетов — для всех, кто относится к тексту, как к количеству знаков</div>
@@ -389,7 +395,7 @@
 					<div class="swiper-wrapper">
 						<div class="swiper-slide">
 							<div class="benefits_item">
-								<svg class="icon2">
+								<svg class="icon20 icon41">
 									<use xlink:href="images/sprite.svg#ben1"></use>
 								</svg>
 								<div class="benefits_item-title">Оценка<br>	речи</div>
@@ -398,7 +404,7 @@
 						</div>
 						<div class="swiper-slide">
 							<div class="benefits_item">
-								<svg class="icon2">
+								<svg class="icon20 icon42">
 									<use xlink:href="images/sprite.svg#ben2"></use>
 								</svg>
 								<div class="benefits_item-title">Безопасное обучение</div>
@@ -407,7 +413,7 @@
 						</div>
 						<div class="swiper-slide">
 							<div class="benefits_item">
-								<svg class="icon2">
+								<svg class="icon20 icon43">
 									<use xlink:href="images/sprite.svg#ben3"></use>
 								</svg>
 								<div class="benefits_item-title">Защита <br>репутации</div>
@@ -416,7 +422,7 @@
 						</div>
 						<div class="swiper-slide">
 							<div class="benefits_item">
-								<svg class="icon2">
+								<svg class="icon20 icon44">
 									<use xlink:href="images/sprite.svg#ben4"></use>
 								</svg>
 								<div class="benefits_item-title">Моментальная коррекция ошибок</div>
@@ -425,7 +431,7 @@
 						</div>
 						<div class="swiper-slide">
 							<div class="benefits_item">
-								<svg class="icon2">
+								<svg class="icon20 icon45">
 									<use xlink:href="images/sprite.svg#ben5"></use>
 								</svg>
 								<div class="benefits_item-title">Сбалансированная оценка</div>
@@ -434,7 +440,7 @@
 						</div>
 						<div class="swiper-slide">
 							<div class="benefits_item">
-								<svg class="icon2">
+								<svg class="icon20 icon46">
 									<use xlink:href="images/sprite.svg#ben6"></use>
 								</svg>
 								<div class="benefits_item-title">Оценка<br>	поведения</div>
@@ -443,7 +449,7 @@
 						</div>
 						<div class="swiper-slide">
 							<div class="benefits_item">
-								<svg class="icon2">
+								<svg class="icon20 icon47">
 									<use xlink:href="images/sprite.svg#ben7"></use>
 								</svg>
 								<div class="benefits_item-title">Произвольные навыки</div>
@@ -455,7 +461,7 @@
 			</section>
 
 
-			<section class="demonstration block">
+			<section class="demonstration block" data-aos="fade-down-left">
 				<div class="cont">
 					<div class="demonstration_title title">Посмотрите <span>Демонстрацию</span></div>
 					<div class="demonstration_text text">Служба Яндекс.Рефераты предназначена для <span>студентов и школьников, дизайнеров и журналистов,</span> создателей научных заявок и отчетов — для всех, кто относится к тексту, как к количеству знаков</div>
@@ -472,7 +478,7 @@
 
 
 
-			<section class="callback">
+			<section class="callback" id="callback" data-aos="fade-down-right">
 				<div class="cont">
 					<div class="callback_wrap">
 						<div class="callback_img">
@@ -490,7 +496,7 @@
 										<input type="tel" placeholder="Ваш телефон">
 									</div>
 									<div class="field">
-										<button type="submit">Отправить</button>
+										<button type="submit" class="modal_link" data-content="#modal">Отправить</button>
 									</div>
 								</div>
 							</form>
@@ -500,7 +506,7 @@
 			</section>
 
 
-			<section class="price block">
+			<section class="price block" data-aos="fade-down-left">
 				<div class="cont">
 					<div class="price_title title"><span>Стоимость</span> Платформы</div>
 					<div class="price_text text">Аренда платформы - ежемесячная абонентская плата, цена рассчитывается индивидуально.<br> <b>На период внедрения действуют скидки до 50% на аренду платформы</b></div>
@@ -510,7 +516,7 @@
 								<div class="price_item-title">Стоимость аренды</div>
 								<div class="price_item-text">Стоимость аренды системы <span>от 300 рублей</span> за 1 человека в месяц</div>	
 							</div>
-							<a href="#" class="price_item-link">Попробовать Демо-Период</a>
+							<a href="#callback" class="price_item-link scroll">Попробовать Демо-Период</a>
 						</div>
 						<div class="price_item">
 							<div class="price_item-number">1</div>
@@ -532,7 +538,7 @@
 			</section>
 
 
-			<section class="faq block">
+			<section class="faq block" data-aos="fade-down-right">
 				<div class="cont">
 					<div class="faq_title title">Ответы на <span>Часто Задаваемые</span> Вопросы</div>
 					<div class="faq_text text">Служба Яндекс.Рефераты предназначена для <span>студентов и школьников, дизайнеров и журналистов,</span> создателей научных заявок и отчетов — для всех, кто относится к тексту, как к количеству знаков</div>
@@ -628,6 +634,10 @@
 		</div>
 
 
+		<section class="modal" id="modal">
+			<div class="modal_text">спасибо!</div>
+		</section>
+
 
 	</div>	
 
@@ -636,6 +646,7 @@
 		<script src="js/inputmask.min.js"></script>
 		<script src="js/fancybox.min.js"></script>
 		<script src="js/swiper-bundle.min.js"></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 		<script src="js/lozad.min.js"></script>
 		<script src="js/functions.js"></script>
 		<script src="js/scripts.js"></script>

@@ -20,6 +20,24 @@ $(() => {
 	})
 
 
+	// Скрол к пунктам меню
+	$(".scroll").on("click", function (e) {
+		e.preventDefault();
+		let id = $(this).attr("href");
+
+		$("html, body").animate({
+			scrollTop: $(id).offset().top - 0
+		}, {
+			duration: 400,
+			easing: "swing"
+		});
+	});
+
+
+	
+	AOS.init();
+
+
 	// Fancybox
 	Fancybox.defaults.autoFocus = false
 	Fancybox.defaults.trapFocus = false
@@ -61,6 +79,24 @@ $(() => {
 	})
 
 
+
+	$('body').on('click', '.tabs button', function (e) {
+		e.preventDefault()
+		
+		const $item2 = $(this).closest('.tabs button')
+
+		if ($item2.hasClass('active2')) {
+			$item2.removeClass('active2').find('.tabs_desc').slideUp(400)
+		} else {
+			$accordion.find('.tabs button').removeClass('active2')
+			$accordion.find('.tabs_desc').slideUp(400)
+
+			$item2.addClass('active2').find('.tabs_desc').slideDown(400)
+		}
+			
+	})
+
+
 	var mySwiper = new Swiper('.advantages .swiper', {
 		speed: 17000,
 		slidesPerView: 4,
@@ -68,6 +104,63 @@ $(() => {
 		loop: true,
 		autoplay: {
 			delay: 0,
+			reverseDirection: true,
+		},
+		breakpoints: {
+			0: {
+				speed: 17000,
+				slidesPerView: 1,
+				spaceBetween: 20,
+				autoplay: {
+					delay: 0,
+				},
+			},
+			576: {
+				speed: 17000,
+				slidesPerView: 2,
+				spaceBetween: 20,
+				autoplay: {
+					delay: 0,
+				},
+			},
+
+			768: {
+				speed: 17000,
+				slidesPerView: 3,
+				spaceBetween: 30,
+				autoplay: {
+					delay: 0,
+				},
+			},
+
+			992: {
+				speed: 17000,
+				slidesPerView: 3,
+				spaceBetween: 40,
+				autoplay: {
+					delay: 0,
+				},
+			},
+
+			1600: {
+				speed: 17000,
+				slidesPerView: 4,
+				spaceBetween: 30,
+				autoplay: {
+					delay: 0,
+				},
+			}
+		}
+	});
+
+	var mySwiper3 = new Swiper('.advantages .swiper_mt47', {
+		speed: 17000,
+		slidesPerView: 4,
+		spaceBetween: 48,
+		loop: true,
+		autoplay: {
+			delay: 0,
+			reverseDirection: false,
 		},
 		breakpoints: {
 			0: {

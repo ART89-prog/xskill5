@@ -110,6 +110,16 @@
         flex-direction: column;
         align-items: center;
     }
+    .first_section-title {
+        text-align: center;
+    }
+    .first_section-text {
+        text-align: center;
+    }
+    .header_logo {
+        display: block;
+        text-align: center;
+    }
 
 
 
