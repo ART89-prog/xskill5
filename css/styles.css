@@ -642,6 +642,7 @@ header {
     flex-direction: column;
     width: calc(100% - 600px);
     margin-top: 17px;
+    counter-reset: section;
 }
 .tabs button {
     border-radius: 29px;
@@ -649,6 +650,9 @@ header {
     box-shadow: 0px 9.377px 32.308px 0px rgba(0, 0, 0, 0.03);
     position: relative;
     padding: 31px;
+}
+.tab_content-text {
+    display: none;
 }
 .tabs button .tabs_head {
     display: flex;
@@ -658,10 +662,32 @@ header {
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
-    line-height: 116.319%; 
+    line-height: 116.319%;     
+    position: relative;
+    width: calc(100% - 85px);
+}
+.tabs button .tabs_head:before {
+    counter-increment: section;
+    content: "0" counter(section); 
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    color: #000;
+    text-align: center;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 68px; 
+    right: -85px;
+    top: 0;
+    position: absolute;
 }
 .tabs button .tabs_head span {
-    text-align: start;
+    text-align: start;    
 }
 .tabs button .tabs_desc {
     color: var(--text_color);

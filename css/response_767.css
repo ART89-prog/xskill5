@@ -20,17 +20,57 @@
         padding-bottom: 20px;
     }
     .tabs_container {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .algorithm_img {
         margin: 0 auto;
     }
     .tabs {
         width: 100%;
+        flex-direction: row;
+        overflow: scroll;
+        padding-top: 12px;
+        gap: 0px;
+    }
+    .tabs::-webkit-scrollbar {
+        width: 0; 
+    }
+    .tabs { 
+        -ms-overflow-style: none; 
+    }
+    .tabs { 
+        overflow: -moz-scrollbars-none; 
+    }
+    .tab_content-text {
+        display: block;
+        color: #FFF;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 133.3%; 
+        margin-bottom: 26px;
+    }
+    .tabs_container {
+        gap: 25px;
+    }
+    .tabs button + button {
+        margin-top: 0;
+    }
+    .tabs button.active .tabs_desc,
+    .tabs button .tabs_desc {
+        display: none;
+    }
+    .tabs button .tabs_head:before {
+        width: 36px;
+        height: 36px;
+        right: calc(100% - 10px);
+        top: -26px;
+        font-size: 18px;
     }
     .icon {
-        width: 40px;
-        height: 40px;
+        width: 54px;
+        height: 54px;
         padding: 6px;
     }
     .icon20 {
@@ -39,11 +79,21 @@
         padding: 6px;
     }
     .tabs button {
-        border-radius: 10px;
-        padding: 10px;
+        border-radius: 29px;
+        padding: 15px;
+        flex-shrink: 0;
+        margin-left: 21px;
     }
     .tabs button .tabs_head {
-        font-size: 20px;
+        font-size: 16px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .tabs button .tabs_head span {
+        max-width: 120px;
+        text-align: center;
     }
     .algorithm_img {
         width: 260px;
